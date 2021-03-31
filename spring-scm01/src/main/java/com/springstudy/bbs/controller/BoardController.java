@@ -45,7 +45,7 @@ public class BoardController {
 		return "boardList";
 	}
 	
-	//수정함1112222
+	//수정함1112222444
 	// 게시 글 상세보기 요청을 처리하는 메서드
 	@RequestMapping("/detail")
 	public String boardDetail(Model model, int no, 
