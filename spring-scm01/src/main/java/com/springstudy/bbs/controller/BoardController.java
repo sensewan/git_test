@@ -47,6 +47,7 @@ public class BoardController {
 	}
 	
 	// 게시 글 상세보기 요청을 처리하는 메서드
+	@RequestMapping("/detail")
 	public String boardDetail(Model model, int no, 
 			@RequestParam(value="pageNum", required=false, 
 					defaultValue="1") int pageNum,
